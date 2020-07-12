@@ -1,0 +1,91 @@
+body {
+  background-color: #991616;
+}
+
+.coding-section-body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  color: #fff;
+  opacity: .84;
+}
+
+a:hover{
+  color: #d02121;
+}
+
+a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  outline: none !important;
+}
+
+.header-ul {
+  display: flex;
+  align-items: center;
+}
+
+.header-ul.left {
+  font-size: 11px;
+  font-weight: 800;
+}
+.header-ul.right {
+  font-size: 8px;
+  font-weight: 800;
+}
+
+.header-ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+#header-nav {
+  padding: 36px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: Roboto,Arial,Helvetica;
+}
+
+#mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: 'Noto Serif TC', serif;
+  color:#fff;
+  opacity: .84;
+}
+
+.name:hover {
+  cursor: default;
+  color: #d02121;
+}
+
+#chinese-name {
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+}
+
+#english-name {
+  font-size: 15px;
+  text-align: center;
+  margin: 0;
+}
