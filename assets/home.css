@@ -1,5 +1,6 @@
 body {
   background-color: #991616;
+  font-family: Roboto,Arial,Helvetica;
 }
 
 a {
@@ -50,8 +51,6 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  font-family: Roboto,Arial,Helvetica;
 }
 
 .coding-section-body {
@@ -79,7 +78,7 @@ a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  font-family: 'Noto Serif TC', serif;
+  font-family: 'Noto Serif TC', Roboto;
   color:#fff;
   opacity: .84;
 }
@@ -99,4 +98,32 @@ a:hover {
   font-size: 15px;
   text-align: center;
   margin: 0;
+}
+
+.footer{
+  background-color: #111;
+  color: #fff;
+  font-size: 1em;
+  color: #aaa;
+  text-align: center;
+}
+
+.footer a {
+  color: #aaa;
+  margin: 0 1em;
+}
+
+.footer-resume {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  font-size: 13px;
+}
+
+.footer i {
+  font-size: 16px;
+}
+
+.spacer {
+  padding: 3em 0;
 }
